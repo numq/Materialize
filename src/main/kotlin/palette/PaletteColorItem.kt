@@ -20,7 +20,7 @@ fun PaletteColorItem(
     isSelected: Boolean,
     select: (PaletteColor) -> Unit,
 ) {
-    Card(modifier = Modifier.padding(horizontal = if (isSelected) 4.dp else 0.dp)) {
+    val itemContent = @Composable {
         Row(
             modifier = Modifier.fillMaxWidth().clickable(enabled = !isSelected, onClick = {
                 select(paletteColor)
@@ -47,4 +47,6 @@ fun PaletteColorItem(
             }
         }
     }
+
+    if (isSelected) itemContent() else Card { itemContent() }
 }

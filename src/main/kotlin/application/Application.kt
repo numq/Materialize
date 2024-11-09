@@ -16,7 +16,7 @@ fun main() {
 
     singleWindowApplication(
         title = "Compose Color Scheme Generator",
-        state = WindowState(size = DpSize(width = 512.dp, height = 512.dp))
+        state = WindowState(size = DpSize(width = 768.dp, height = 512.dp))
     ) {
         MaterialTheme {
             Navigation()
