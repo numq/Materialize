@@ -96,7 +96,7 @@ fun GenerationScreenLoaded(
                                 )
                             }
                             RectangularColorPicker(
-                                modifier = Modifier.fillMaxWidth(.5f).fillMaxHeight(),
+                                modifier = Modifier.size(128.dp),
                                 color = Color(selectedLightPaletteColor.argb),
                                 onColorChange = { color ->
                                     updateLightPaletteColor(selectedLightPaletteColor, color)
