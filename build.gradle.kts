@@ -27,11 +27,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "MainKt"
+        mainClass = "ApplicationKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "compose-color-scheme-generator"
+            packageName = "Materialize"
             packageVersion = "1.0.0"
         }
     }

@@ -20,7 +20,7 @@ import navigation.Navigation
 import org.koin.core.context.startKoin
 import kotlin.system.exitProcess
 
-private const val appName = "Compose Color Scheme Generator"
+private const val appName = "Materialize"
 
 fun main() {
     startKoin {

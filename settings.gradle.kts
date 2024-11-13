@@ -13,4 +13,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "compose-color-scheme-generator"
+rootProject.name = "Materialize"
