@@ -2,7 +2,7 @@
 
 # Materialize
 
-Material Theme Color Generator App for Jetpack Compose
+Material design color scheme generator GUI for Jetpack Compose application theming
 
 ![Preview](media/preview.png)
 
